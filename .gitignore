@@ -216,3 +216,82 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+
+
+
+
+
+# ================================
+# Python
+# ================================
+
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Python virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables
+.env
+.env.*
+
+# ================================
+# Jupyter Notebook
+# ================================
+
+.ipynb_checkpoints/
+
+# ================================
+# Data
+# ================================
+
+# Raw datasets
+data/raw/*
+!data/raw/.gitkeep
+
+# Processed/generated datasets
+data/processed/*
+!data/processed/.gitkeep
+
+# ================================
+# Generated outputs
+# ================================
+
+*.log
+*.tmp
+
+# ================================
+# OS Files
+# ================================
+
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ================================
+# IDE / Editor
+# ================================
+
+.vscode/
+.idea/
+
+# ================================
+# Python packaging
+# ================================
+
+*.egg-info/
+dist/
+build/
+
+# ================================
+# Temporary files
+# ================================
+
+*.bak
+*.swp
+*.swo
